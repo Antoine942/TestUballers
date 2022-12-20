@@ -1,0 +1,187 @@
+body
+{
+    background-color: #dfe3ee ;
+    font-family: 'Lucida Grande', tahoma,verdana,arial,sans-serif;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.header
+{
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    background-color: #3b5998 ;
+    height: 70px;
+}
+
+.header div
+{
+    margin-inline: 2%;
+}
+
+.header input[type=text]
+{
+    margin: 1%;
+
+    padding: 2%;
+}
+
+.header input[type=password]
+{
+    margin: 1%;
+    padding: 2%;
+}
+
+
+.connected
+{
+    
+    width: 300PX;
+    display: flex;
+    margin-top: 1%;
+    font-size: 20px;
+}
+
+.connected a{
+    margin-left: 3%;
+}
+
+.connexion
+{
+    margin-top: 20px;
+}
+.button
+{
+    
+    padding: 12%;
+    cursor: pointer;
+    background-color: #435d97;
+    color: white;
+    border: 1px solid #314570;
+
+}
+.oublie
+{
+    margin-top: 1%;
+    font-size: 10px;
+    color: #8b9dc3;
+}
+
+.main
+{   
+    width: 370px;
+    margin: 0 auto;
+    margin-top: 5%;
+
+}
+
+
+.title
+{
+    font-weight: bold;
+    margin-bottom: 2%;
+}
+
+.main input[type=text]
+{
+    margin-top: 1%;
+    margin-bottom: 1%;
+    margin-right: 2%;
+    padding: 2%;
+    border-radius: 5PX;
+    border: 1px solid #a8a8a8;
+
+}
+
+.register-form
+{
+    margin-top: 3%;
+}
+
+.age
+{
+    margin-top: 7%;
+}
+
+.info
+{
+    font-size: 9px;
+    cursor: pointer;
+    margin-top: 3%;
+    margin-left: 2%;
+    color: #435d97;
+}
+
+.selecteur
+{
+    margin-top: 4%;
+    padding: 1%;
+    border-radius: 5PX;
+    border: 1px solid #a8a8a8;
+
+}
+
+.align
+{
+    display: flex;
+    width: 300px;
+
+}
+
+input[type=radio]
+{
+    margin-top: 5%;
+}
+
+.radio
+{
+    margin-inline: 2%;
+}
+
+.endtext
+{
+    margin-top: 6%;
+    font-size: 11px;
+    color: #666666;
+    width: 290px;
+}
+
+.endtext button
+{
+    margin-top: 5%;
+    color: white;
+    font-weight: bold;
+    padding-inline: 10%;
+    padding-top: 2%;
+    padding-bottom:2%;
+    background: linear-gradient(rgb(114, 160, 61), rgb(72, 110, 39));
+    border: 1px solid rgb(57, 87, 31);
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.endtext a
+{
+    color: #33508f;
+    cursor: pointer;
+}
+
+.error
+{
+    border: 1px solid rgb(182, 36, 36);
+    width: 327px;
+    padding: 1%;
+    margin-top: 2%;
+    color: rgb(182, 36, 36);
+    padding: 1%;
+    font-size: 13px;
+    background-color: #f8d0d0;
+    border-radius: 5px;
+
+}
